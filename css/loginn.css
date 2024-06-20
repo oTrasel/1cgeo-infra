@@ -1,0 +1,38 @@
+h3.login{
+  
+  border-radius: .375em;
+  padding: .3rem .5rem .3rem .5rem;
+  border: 1px solid white ;
+  background-color:  #23232e;
+  color: #fff;
+  width: 285px;
+}
+
+input.dados{
+  border-radius: .575em;
+  padding: .3rem .5rem .3rem .5rem;
+  border: 5px double #23232e ;
+  width: 280px;
+
+}
+
+
+
+div.sucesso{
+  border-radius: .575em;
+  padding: .3rem .5rem .3rem .5rem;
+  border: 3px solid white ;
+  width: 280px;
+  background-color: green;
+}
+
+
+
+div.falha{
+  border-radius: .575em;
+  padding: .3rem .5rem .3rem .5rem;
+  border: 3px solid white ;
+  width: 280px;
+  background-color: red;
+}
+
