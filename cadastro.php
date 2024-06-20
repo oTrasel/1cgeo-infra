@@ -1,6 +1,12 @@
 <?php
 include("layout.php");
 ini_set('default_charset','UTF-8');
+
+if($_SESSION['tp_user'] !== 'admin'){
+    header('Location: index.php');
+    session_destroy();
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html>
